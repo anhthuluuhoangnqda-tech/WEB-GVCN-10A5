@@ -1,0 +1,55 @@
+@import "tailwindcss";
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    font-family: "Times New Roman", Times, Georgia, serif !important;
+  }
+
+  body {
+    font-family: "Times New Roman", Times, Georgia, serif !important;
+    background-color: #F3F8FF;
+    color: #183153;
+    margin: 0;
+    padding: 0;
+    overflow-x: hidden;
+  }
+
+  button, input, select, textarea {
+    font-family: "Times New Roman", Times, Georgia, serif !important;
+  }
+}
+
+/* Custom subtle scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #E8F1FC;
+}
+::-webkit-scrollbar-thumb {
+  background: #A9C7EE;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #0755B8;
+}
+
+/* Print styles for export */
+@media print {
+  body {
+    background: #FFFFFF !important;
+    color: #000000 !important;
+  }
+  .no-print {
+    display: none !important;
+  }
+  .print-only {
+    display: block !important;
+  }
+  .print-break {
+    page-break-before: always;
+  }
+}

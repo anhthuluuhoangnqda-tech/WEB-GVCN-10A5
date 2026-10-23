@@ -1,0 +1,6 @@
+{
+  "name": "Ngo Quyen Edu - Smart Class",
+  "description": "Hệ thống quản lý lớp học và hỗ trợ dạy học Vật lí thông minh - THPT Ngô Quyền Đông Anh",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
